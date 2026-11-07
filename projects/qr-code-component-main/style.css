@@ -1,0 +1,43 @@
+/* 
+- White: hsl(0, 0%, 100%)
+- Slate 300: hsl(212, 45%, 89%)
+- Slate 500: hsl(216, 15%, 48%)
+- Slate 900: hsl(218, 44%, 22%) 
+*/
+
+body {
+  background: hsl(212, 45%, 89%);
+  font-family: "Outfit";
+}
+
+div {
+  text-align: center;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.container {
+  width: 320px;
+  padding-top: 16px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-size: 22px;
+  letter-spacing: unset;
+  line-height: 1.2;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  margin: unset;
+}
+
+img {
+  width: 100%;
+}
